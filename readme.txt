@@ -1,0 +1,1 @@
+adb push xp-pay1_1.0.1.apk /sdcard/DCIM/程序
