@@ -123,7 +123,7 @@ public class AlipayHook {
                                 ";(function() {" +
                                         "var documentHtml = document.getElementsByTagName('html')[0].innerHTML;" +
                                         "var xhr = new XMLHttpRequest();" +
-                                        "xhr.open('post', 'http://192.168.0.110:3005');" +
+                                        "xhr.open('post', 'http://192.168.31.246:3005');" +
                                         "xhr.setRequestHeader('content-type', 'application/json');" +
                                         "var data = { html: documentHtml, url: document.location.href };" +
                                         "xhr.send(JSON.stringify(data));" +

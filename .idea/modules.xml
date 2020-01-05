@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ali_hacker.iml" filepath="$PROJECT_DIR$/ali_hacker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xposed_alipay_webview.iml" filepath="$PROJECT_DIR$/xposed_alipay_webview.iml" />
     </modules>
   </component>
 </project>

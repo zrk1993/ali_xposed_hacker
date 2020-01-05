@@ -113,7 +113,7 @@ public class MainActivity extends Activity {
 		registerReceiver(alarmReceiver, alarmIntentFilter);
 		startService(new Intent(this, DaemonService.class));
 
-//		notifyurl = AbSharedUtil.getString(getApplicationContext(), "notifyurl");
+		notifyurl = AbSharedUtil.getString(getApplicationContext(), "notifyurl");
 //		signkey = AbSharedUtil.getString(getApplicationContext(), "signkey");
 //		mchid = AbSharedUtil.getString(getApplicationContext(), "mchid");
 //		device = AbSharedUtil.getString(getApplicationContext(), "device");
