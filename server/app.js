@@ -8,9 +8,10 @@ const app = new Koa();
 app.use(cors());
 app.use(koaBody());
 
+let i = 0;
 app.use(ctx => {
   const body = `Request Body: ${JSON.stringify(ctx.request.body)}`;
-  fs.writeFile(ctx.request.body.url.replace(/[^a-zA-Z]/ig, '') + '.html', ctx.request.body.html, function(err){
+  fs.writeFile('html/' + (i++) + ctx.request.body.url.replace(/[\/]/ig, '_')+ '.html', ctx.request.body.html, function(err){
     if (err) {
       console.error(err)
     }
